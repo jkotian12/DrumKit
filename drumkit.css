@@ -1,0 +1,32 @@
+*{color: white}
+body{
+    background-image: url("backgroundimg.jpg");
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;   
+}
+.keys{
+    margin: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    background-color: rgba(0,0,0,0.7);
+    border: 2px solid rgb(142, 156, 16);
+    border-radius: 5px;
+    height: 65px;
+    width: 65px;
+}
+.letter{
+    font-size: 30px;
+}
+.instrument{
+    color:rgb(245, 206, 31);
+    transition: 1s;
+}
+.play{
+    box-shadow: 4px 4px 4px 4px rgb(221, 236, 80);
+    transform: scale(1.1);
+}
